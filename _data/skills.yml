@@ -10,3 +10,11 @@
 # Digital content development and creation
 - skill: Digital content development and creation
   description: Copy writing, graphic design, web design, front-end web development, print design
+
+  programs:
+    - name: Photoshop
+      label: Label--primary
+    - name: Excel
+      label: Label--success
+    - name: Python
+      label: Label--info
