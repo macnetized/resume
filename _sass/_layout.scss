@@ -72,3 +72,27 @@
   padding-left: $grid-gutter;
   vertical-align: top;
 }
+
+// labels from Prime CSS
+.Label {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  font-size: 85%;
+  font-weight: 600;
+  color: #fff;
+  background-color: #6c757d;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+}
+
+.Label--primary {
+  background-color: #0366d6;
+}
+
+.Label--success {
+  background-color: #28a745;
+}
+
+.Label--info {
+  background-color: #17a2b8;
+}
