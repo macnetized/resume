@@ -39,6 +39,30 @@
           {{ site.resume_header_intro }}
         </div>
 
+      {% if site.resume_section_skills %}
+        <!-- begin Skills -->
+        <section class="content-section">
+          <header class="section-header">
+            <h2>Conocimientos</h2>
+          </header>
+          {% for skill in site.data.skills %}
+            <div class="resume-item">
+              <h4 class="resume-item-details">{{ skill.skill }}</h4>
+              <p class="resume-item-copy">{{ skill.description }}</p>
+              {% if skill.programs %}
+                <p>
+                  Programas que manejo:
+                  {% for program in skill.programs %}
+                    <span class="Label {{ program.label }}">{{ program.name }}</span>
+                  {% endfor %}
+                </p>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </section>
+        <!-- end Skills -->
+      {% endif %}
+
         {% if site.resume_looking_for_work == 'yes' %}
         <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contactar por e-mail</a>
         {% elsif site.resume_looking_for_work == 'no' %}
@@ -117,30 +141,6 @@
       <!-- end Projects -->
       {% endif %}
       
-      {% if site.resume_section_skills %}
-        <!-- begin Skills -->
-        <section class="content-section">
-          <header class="section-header">
-            <h2>Skills</h2>
-          </header>
-          {% for skill in site.data.skills %}
-            <div class="resume-item">
-              <h4 class="resume-item-details">{{ skill.skill }}</h4>
-              <p class="resume-item-copy">{{ skill.description }}</p>
-              {% if skill.programs %}
-                <p>
-                  Programas que manejo:
-                  {% for program in skill.programs %}
-                    <span class="Label {{ program.label }}">{{ program.name }}</span>
-                  {% endfor %}
-                </p>
-              {% endif %}
-            </div>
-          {% endfor %}
-        </section>
-        <!-- end Skills -->
-      {% endif %}
-
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
       <section class="content-section">
