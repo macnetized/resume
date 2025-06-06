@@ -37,7 +37,6 @@
     letter-spacing: -.15rem;
     line-height: 1;
     margin: 1rem 0 0;
-    color: #f00070;
   }
 
   .header-contact-info {
@@ -111,7 +110,7 @@
 
 .contact-button {
   @include border-radius(3px);
-  background-color: #f00070;
+  background-color: #bde6ff, 100%, 87%);
   text-decoration: none;
   text-align: center;
   display: block;
@@ -212,7 +211,7 @@
   .section-header {
     @include section_border_thin;
     margin-bottom: 1rem;
-    h2 { font-size: 1.2rem; line-height: 1.5rem; }
+    h2 { font-size: 1.2rem; line-height: 1.5rem; color: #f00070;}
   }
   .content-section {
     margin: 0 0 1rem;
