@@ -2,10 +2,28 @@
 // ---------------------------------------/
 
 // util
-
 .section-header {
   @include section_border;
   margin-bottom: 1.5rem;
+  position: relative; // Necesario para el pseudo-elemento
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 1.4em;    // Tamaño del círculo/arco
+    height: 1.4em;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    border: 2.5px solid #f00070; // Borde rosa
+    border-radius: 50%;
+    border-bottom: none;
+    border-left: none;
+    background: transparent;
+    box-sizing: border-box;
+    // Opcional: para que solo salga antes del h2, no antes de todo el header:
+    position: relative;
+    top: -0.15em;
+  }
 
   h2 {
     @include sans;
@@ -14,6 +32,8 @@
     letter-spacing: -.05rem;
     margin: 0;
     color: #f00070;
+    display: inline;
+    vertical-align: middle;
   }
 }
 
@@ -111,7 +131,7 @@
 
 .contact-button {
   @include border-radius(3px);
-  background-color: #bde6ff;
+  background-color: #efefef;
   text-decoration: none;
   text-align: center;
   display: block;

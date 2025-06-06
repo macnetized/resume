@@ -7,3 +7,21 @@
       label: Label--design
     - name: InDesign
       label: Label--design
+    - name: PremierePro
+      label: Label--design
+    - name: AfterEffects
+      label: Label--design
+    - name: Blender3D
+      label: Label--design
+    - name: Cinema4D
+      label: Label--design
+    - name: HTML5
+      label: Label--programing
+    - name: CSS
+      label: Label--programing
+    - name: Wordpress
+      label: Label--programing
+    - name: Jekyll
+      label: Label--programing
+    - name: Bootstrap
+      label: Label--programing
