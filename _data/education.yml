@@ -1,13 +1,19 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+#- degree: Bachelor of Arts, Human Rights
+#  uni: Yale University
+#  year: 2004 &mdash; 2008
+#  awards:
+#    - award: Summa Cumme Laude graduate
+#  summary: If you had any meaningful roles at college, feel free to write about them here
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: Python Institute
+  uni: 
+  year: Actualmente
+  award: PCEP (Certified Entry-Level Python Programmer)
+  summary: Actualmente en formación autodidacta para la certificación PCEP (Certified Entry-Level Python Programmer), enfocada en el dominio de los fundamentos de la programación en Python.
+
+- degree: Google Activate
+  uni: 
+  year: Sep - Nov 2015
+  award: 
+  summary: Formación presencial en marketing digital y diseño web, con certificaciones oficiales otorgadas por IAB y Google, consolidando conocimientos en estrategias digitales y herramientas especializadas.
