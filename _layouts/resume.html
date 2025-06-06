@@ -51,7 +51,6 @@
               <p class="resume-item-copy">{{ skill.description }}</p>
               {% if skill.programs %}
                 <p>
-                  Programas que manejo:
                   {% for program in skill.programs %}
                     <span class="Label {{ program.label }}">{{ program.name }}</span>
                   {% endfor %}
