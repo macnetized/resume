@@ -7,13 +7,55 @@
 #  summary: If you had any meaningful roles at college, feel free to write about them here
 
 - degree: Python Institute
-  uni: 
+  uni: Formación Online
   year: Actualmente
   award: PCEP (Certified Entry-Level Python Programmer)
   summary: Actualmente en formación autodidacta para la certificación PCEP (Certified Entry-Level Python Programmer), enfocada en el dominio de los fundamentos de la programación en Python.
+
+- degree: Formación Online
+  uni: Formación continua
+  year: Actualmente
+  award: 
+  summary: Cursos especializados en diseño y herramientas creativas, manteniéndome actualizado en las últimas tendencias y software del sector.
+
+- degree: Motion Graphics Bootcamp
+  uni: School of Motion
+  year: Dic 2017
+  award: 
+  summary: Curso avanzado de After Effects, perfeccionando habilidades en motion graphics y animación digital, orientadas a la producción de contenido dinámico y atractivo.
 
 - degree: Google Activate
   uni: 
   year: Sep - Nov 2015
   award: 
   summary: Formación presencial en marketing digital y diseño web, con certificaciones oficiales otorgadas por IAB y Google, consolidando conocimientos en estrategias digitales y herramientas especializadas.
+
+- degree: Certificación Cambridge ESOL
+  uni: St John School of English
+  year: Sep 2012 - Nov 2012
+  award: 
+  summary: Certificación Cambridge ESOL, obtenida en St John Church, Bethnal Green, Londres, acreditando competencias en el idioma inglés.
+
+- degree: modelado en 3Ds Max y renderizado en Vray
+  uni: CICE 
+  year: Oct 2005 - Dic 2005
+  award: 
+  summary: Formación en modelado en 3Ds Max y renderizado en Vray, desarrollando conocimientos avanzados en técnicas de representación 3D.
+
+- degree: Delineación y dibujo en 2D
+  uni: EDIDE GOYMAR 
+  year: 
+  award: Nov 2004 - Mar 2005
+  summary: Curso intensivo de AutoCAD (600 horas), con un enfoque práctico en diseño asistido por computadora y su aplicación en proyectos reales.
+
+- degree: Técnico en Diseño y Modelismo Industrial
+  uni: Escuela de Arte 12
+  year: Oct 2004 - Jun 2006
+  award: 
+  summary: Graduación como Técnico en Diseño y Modelismo Industrial, con prácticas profesionales en Gráficas Palermo (Rivas-Vaciamadrid), especializándome en diseño visual, branding y preimpresión.
+
+- degree: 
+  uni: 
+  year: 
+  award: 
+  summary: 
