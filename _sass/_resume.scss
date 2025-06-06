@@ -2,27 +2,20 @@
 // ---------------------------------------/
 
 // util
-.section-header {
+ .section-header {
   @include section_border;
   margin-bottom: 1.5rem;
-  position: relative; // Necesario para el pseudo-elemento
+  position: relative;
 
   &::before {
     content: "";
     display: inline-block;
-    width: 1.4em;    // Tamaño del círculo/arco
+    width: 1.4em;   // Ajusta el tamaño según tu preferencia
     height: 1.4em;
     margin-right: 0.5em;
     vertical-align: middle;
-    border: 2.5px solid #f00070; // Borde rosa
-    border-radius: 50%;
-    border-bottom: none;
-    border-left: none;
-    background: transparent;
-    box-sizing: border-box;
-    // Opcional: para que solo salga antes del h2, no antes de todo el header:
-    position: relative;
-    top: -0.15em;
+    background: url('data:image/svg+xml;utf8,<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16,2 A14,14 0 0 1 30,16" fill="none" stroke="%23f00070" stroke-width="5" stroke-linecap="round"/></svg>') no-repeat center/contain;
+    // ↑ El trazo es grueso (stroke-width="5"), color rosa (%23f00070), termina y empieza de forma "redonda"
   }
 
   h2 {
@@ -35,6 +28,7 @@
     display: inline;
     vertical-align: middle;
   }
+}
 }
 
 // page header styles
