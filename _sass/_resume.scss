@@ -129,10 +129,10 @@
   display: block;
   margin: 1.5rem auto;
   width: 220px;
-  border-radius: .30rem;
+  border-radius: .5rem;
   font-size: 1.375rem;
   @include sans_light;
-  color: #e0e0e0;
+  color: #333;
   line-height: 55px;
   @include transition(all .2s ease);
 
