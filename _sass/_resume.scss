@@ -13,6 +13,7 @@
     font-size: 1.75rem;
     letter-spacing: -.05rem;
     margin: 0;
+    color: #f00070;
   }
 }
 
@@ -211,7 +212,7 @@
   .section-header {
     @include section_border_thin;
     margin-bottom: 1rem;
-    h2 { font-size: 1.2rem; line-height: 1.5rem; color: #f00070;}
+    h2 { font-size: 1.2rem; line-height: 1.5rem; }
   }
   .content-section {
     margin: 0 0 1rem;
