@@ -25,7 +25,7 @@
   summary: Curso avanzado de After Effects, perfeccionando habilidades en motion graphics y animación digital, orientadas a la producción de contenido dinámico y atractivo.
 
 - degree: Google Activate
-  uni: 
+  uni: Google
   year: Sep - Nov 2015
   award: 
   summary: Formación presencial en marketing digital y diseño web, con certificaciones oficiales otorgadas por IAB y Google, consolidando conocimientos en estrategias digitales y herramientas especializadas.
@@ -44,8 +44,8 @@
 
 - degree: Delineación y dibujo en 2D
   uni: EDIDE GOYMAR
-  year: 
-  award: Nov 2004 - Mar 2005
+  year: Nov 2004 - Mar 2005
+  award: 
   summary: Curso intensivo de AutoCAD (600 horas), con un enfoque práctico en diseño asistido por computadora y su aplicación en proyectos reales.
 
 - degree: Técnico en Diseño y Modelismo Industrial
@@ -53,7 +53,6 @@
   year: Oct 2004 - Jun 2006
   award: 
   summary: Graduación como Técnico en Diseño y Modelismo Industrial, con prácticas profesionales en Gráficas Palermo (Rivas-Vaciamadrid), especializándome en diseño visual, branding y preimpresión.
-
 #- degree: 
 #  uni: 
 #  year: 
