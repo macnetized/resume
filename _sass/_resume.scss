@@ -2,7 +2,7 @@
 // ---------------------------------------/
 
 // util
- .section-header {
+.section-header {
   @include section_border;
   margin-bottom: 1.5rem;
   position: relative;
@@ -10,12 +10,11 @@
   &::before {
     content: "";
     display: inline-block;
-    width: 1.4em;   // Ajusta el tamaño según tu preferencia
-    height: 1.4em;
+    width: 1.8em;   // Más grande para evitar corte de SVG
+    height: 1.8em;
     margin-right: 0.5em;
     vertical-align: middle;
-    background: url('data:image/svg+xml;utf8,<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16,2 A14,14 0 0 1 30,16" fill="none" stroke="%23f00070" stroke-width="5" stroke-linecap="round"/></svg>') no-repeat center/contain;
-    // ↑ El trazo es grueso (stroke-width="5"), color rosa (%23f00070), termina y empieza de forma "redonda"
+    background: url('data:image/svg+xml;utf8,<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M24,8 A16,16 0 0 1 40,24" fill="none" stroke="%23f00070" stroke-width="7" stroke-linecap="round"/></svg>') no-repeat center/contain;
   }
 
   h2 {
@@ -225,7 +224,17 @@
   .section-header {
     @include section_border_thin;
     margin-bottom: 1rem;
-    h2 { font-size: 1.2rem; line-height: 1.5rem; }
+    h2 { 
+      font-size: 1.2rem; 
+      line-height: 1.5rem; 
+      color: #000 !important;
+    }
+    &::before {
+      // El mismo SVG pero con stroke negro (%23000)
+      background: url('data:image/svg+xml;utf8,<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M24,8 A16,16 0 0 1 40,24" fill="none" stroke="%23000" stroke-width="7" stroke-linecap="round"/></svg>') no-repeat center/contain !important;
+      // Mantén los mismos tamaños y estilos que en pantalla
+      display: inline-block !important;
+    }
   }
   .content-section {
     margin: 0 0 1rem;
