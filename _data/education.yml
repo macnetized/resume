@@ -37,13 +37,13 @@
   summary: Certificación Cambridge ESOL, obtenida en St John Church, Bethnal Green, Londres, acreditando competencias en el idioma inglés.
 
 - degree: modelado en 3Ds Max y renderizado en Vray
-  uni: CICE 
+  uni: CICE
   year: Oct 2005 - Dic 2005
   award: 
   summary: Formación en modelado en 3Ds Max y renderizado en Vray, desarrollando conocimientos avanzados en técnicas de representación 3D.
 
 - degree: Delineación y dibujo en 2D
-  uni: EDIDE GOYMAR 
+  uni: EDIDE GOYMAR
   year: 
   award: Nov 2004 - Mar 2005
   summary: Curso intensivo de AutoCAD (600 horas), con un enfoque práctico en diseño asistido por computadora y su aplicación en proyectos reales.
@@ -54,8 +54,8 @@
   award: 
   summary: Graduación como Técnico en Diseño y Modelismo Industrial, con prácticas profesionales en Gráficas Palermo (Rivas-Vaciamadrid), especializándome en diseño visual, branding y preimpresión.
 
-- degree: 
-  uni: 
-  year: 
-  award: 
-  summary: 
+#- degree: 
+#  uni: 
+#  year: 
+#  award: 
+#  summary: 
