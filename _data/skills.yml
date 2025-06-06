@@ -15,7 +15,7 @@
       label: Label--design
     - name: Cinema4D
       label: Label--design
-- skill: Código y programación
+- skill: null
   programs:
     - name: HTML5
       label: Label--programing
